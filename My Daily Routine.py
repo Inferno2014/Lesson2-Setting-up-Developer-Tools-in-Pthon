@@ -1,0 +1,12 @@
+print('Enter your school routine and the program will calculate the duration of your routine')
+routine1 = int(input('Time when you wake up: '))
+routine2 = int(input('Time when you brush, and bath up: '))
+routine3 = int(input('Time when you get ready for school: '))
+routine4 = int(input('Time when you come back from school: '))
+routine5 = int(input('Time when you eat your snacks at home: '))
+routine6 = int(input('Time when you study in the evening: '))
+routine7 = int(input('Time when you play in the evening: '))
+routine8 = int(input('Time when you eat dinner: '))
+routine9 = int(input('Time when you go to sleep: '))
+duration = routine1+routine9
+print('It takes',duration,'hours to complete your routine')
